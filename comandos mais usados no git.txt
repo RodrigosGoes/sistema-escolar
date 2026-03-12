@@ -9,3 +9,4 @@ git log = mostra os commits feitos.
 git reflog = mostra os commits resumidos com as iniciais dos numero de referencia.
 git log --pretty=oneline = mostra os commits resumidos com os numero de referencia completos.
 git diff = mostra todas as operações feitas no arquivos.
+git restore --staged nome_do_arquivo.extensão
