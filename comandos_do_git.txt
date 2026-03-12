@@ -1,0 +1,19 @@
+git init = para iniciar a pasta .git.
+git clone = para clonar a pasta de alguém.
+git status = verificar de houve mudanças nos arquivos.
+git add . = para subir todos os arquivos para a pasta e depois o commit.
+git add nome_do_arquivo.extensão = para subir um arquivo especifico para a pasta e depois o commit.
+git commit -m "titulo do que você fez ou alterou" = salvar no git para depois o push
+git commit -am "titulo do que você fez ou alterou" = adiciona e salva no msm tempo no git para depois o push. faz um git add e commit juntos.
+git branch = mostra a branch que estamos trabalhando.
+git branch -M main = renomeia a branch para main.
+git log = mostra os commits feitos.
+git reflog = mostra os commits resumidos com as iniciais dos numero de referencia.
+git log --pretty=oneline = mostra os commits resumidos com os numero de referencia completos.
+git diff = mostra todas as operações feitas no arquivos.
+git restore --staged nome_do_arquivo.extensão
+git remote add origin https://github.com/RodrigosGoes/sistema-escolar.git = linkar o git com github.
+git remote get-url origin = saber qual repositorio o git está linkado.
+git push -u origin main = A primeira vez que vai commitar com o repositorio (github) e necessario por o -u origin, ja o "main" e a branch que se quer commitar.
+git push = para commitar com repositorio depois de ja ter feito uma vez.
+git blame = 
