@@ -1,3 +1,5 @@
+# Comandos do GIT
+
 git init = para iniciar a pasta .git.
 git clone = para clonar a pasta de alguém.
 git status = verificar de houve mudanças nos arquivos.
