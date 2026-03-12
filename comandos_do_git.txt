@@ -16,4 +16,6 @@ git remote add origin https://github.com/RodrigosGoes/sistema-escolar.git = link
 git remote get-url origin = saber qual repositorio o git está linkado.
 git push -u origin main = A primeira vez que vai commitar com o repositorio (github) e necessario por o -u origin, ja o "main" e a branch que se quer commitar.
 git push = para commitar com repositorio depois de ja ter feito uma vez.
-git blame = 
+git blame nome_do_arquivo.extensão = mostra quem alterou o arquivo.
+
+
