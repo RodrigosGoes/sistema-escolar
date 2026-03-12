@@ -118,7 +118,7 @@ while True:
             print("Idade:", aluno.idade) 
             print("Notas:", aluno.notas) 
             print("Média:", aluno.media())
-        else: print("Aluno não encontrado")
+        else: print("Aluno não encontrado!")
 
     elif opcao == "4": 
         salvar_arquivo()
@@ -127,3 +127,4 @@ while True:
         print("Encerrando sistema...") 
         break
     else: print("Opção inválida")
+    
