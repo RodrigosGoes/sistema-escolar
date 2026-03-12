@@ -13,5 +13,5 @@ git diff = mostra todas as operações feitas no arquivos.
 git restore --staged nome_do_arquivo.extensão
 git remote add origin https://github.com/RodrigosGoes/sistema-escolar.git = linkar o git com github.
 git remote get-url origin = saber qual repositorio o git está linkado.
-git push -u origin main = A primeira vez que vai commitar com o repositorio (github) e necessario por o -u origin main.
+git push -u origin main = A primeira vez que vai commitar com o repositorio (github) e necessario por o -u origin, ja o "main" e a branch que se quer commitar.
 git push = para commitar com repositorio depois de ja ter feito uma vez.
