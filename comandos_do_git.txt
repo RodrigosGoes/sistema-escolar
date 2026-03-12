@@ -22,3 +22,4 @@ git blame nome_do_arquivo.extensão = mostra quem alterou o arquivo.
 git checkout -b "nova_feature" = criando uma nova brance no git.
 git checkout mais_a_branch_q_deseja = para mudar de branch( fazer um switched).
 git push --set-upstream origin nova_feature = criar uma nova branch no repositorio
+git checkout -b "nova_feature" = criar uma nova branch.
