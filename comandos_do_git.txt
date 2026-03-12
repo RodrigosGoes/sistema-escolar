@@ -1,4 +1,4 @@
-# Comandos do GIT.
+# Comandos do GIT. #
 
 git init = para iniciar a pasta .git.
 git clone = para clonar a pasta de alguém.
