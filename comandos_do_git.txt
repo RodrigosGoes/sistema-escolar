@@ -24,3 +24,5 @@ git checkout mais_a_branch_q_deseja = para mudar de branch( fazer um switched).
 git push --set-upstream origin nova_feature = criar uma nova branch no repositorio
 git merge nome_da_branch = estando em uma branch e so usar o comando com o nome da outra branch p mergear.
 git branch -d nome_da_branch = deletar branch
+git push -d origin nome_da_branch = deletar branch do repositorio
+git revert HEAD/numerosreferencia --no-edit = para reverter os commits e pushs.
