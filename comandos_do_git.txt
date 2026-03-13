@@ -26,4 +26,3 @@ git merge nome_da_branch = estando em uma branch e so usar o comando com o nome 
 git branch -d nome_da_branch = deletar branch
 git push -d origin nome_da_branch = deletar branch do repositorio
 git revert HEAD/numerosreferencia --no-edit = para reverter os commits e pushs.
-.ljhqgflkhgflkagfbqdabfjkdanflk
