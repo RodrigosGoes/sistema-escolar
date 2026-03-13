@@ -26,4 +26,6 @@ git merge nome_da_branch = estando em uma branch e so usar o comando com o nome 
 git branch -d nome_da_branch = deletar branch
 git push -d origin nome_da_branch = deletar branch do repositorio
 git revert HEAD/numerosreferencia --no-edit = para reverter os commits e pushs.
-git reset HEAD --hard = restaura o git ate o ultimo commit. (muito perigoso
+git reset HEAD/numerosreferencia --soft = restaura o commit, mas permanece no staged. (muito perigoso)
+git reset HEAD/numerosreferencia --mixed = restaura o commit e o staged, mas permanece no changes. (muito perigoso)
+git reset HEAD/numerosreferencia --hard = restaura tudo. (muito perigoso)
