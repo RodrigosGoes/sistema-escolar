@@ -1,0 +1,171 @@
+instalar o nodejs --version 24.14 
+    O Node.js é uma ferramenta que permite rodar JavaScript fora do navegador.
+    👉 Antes dele:
+
+        JavaScript só funcionava dentro do navegador (Chrome, Firefox…)
+
+    👉 Com o Node.js:
+
+        Você pode usar JavaScript no backend (servidor)
+        Criar APIs
+        Trabalhar com arquivos
+        Criar sistemas completos
+    💡 Exemplo simples:
+        console.log("Olá, mundo!");
+
+    Esse código pode rodar direto no seu computador com Node.js, sem navegador.
+
+🟡 O QUE É O NPM?
+
+    Ele é um gerenciador de biblioteca, pacotes, tipo o PIP do PYTHON, e nele esta a biblioteca
+    do REACT NATIVE.
+    
+    O npm (Node Package Manager) é tipo uma loja de bibliotecas prontas.
+
+    👉 Ele vem junto com o Node.js.
+
+    Com o npm você pode:
+        Instalar bibliotecas prontas
+        Gerenciar dependências do seu projeto
+        Facilitar MUITO sua vida
+    🔧 Exemplo prático
+
+    Se você quiser usar algo pronto, tipo um servidor web:
+
+        npm install express
+
+    Isso baixa a biblioteca Express, que ajuda a criar servidores.
+
+    Depois no código:
+
+        const express = require('express');
+        const app = express();
+
+        app.get('/', (req, res) => {
+        res.send('Olá!');
+        });
+
+        app.listen(3000);
+
+    👉 Pronto! Você criou um servidor.
+
+    🧠 Resumindo (bem direto):
+        Node.js → executa JavaScript fora do navegador
+        npm → instala e gerencia bibliotecas
+    ⚡ Fazendo uma analogia simples:
+        Node.js = motor do carro
+        npm = loja de peças/acessórios
+
+INSTALANDO NODE.js
+    Basicamente next, next, next...
+
+
+
+DUVIDAS SOBRE REACT E REACT NATIVE.
+
+1- O "REACT" é usado para criar interfaces de sites (web).
+
+👉 Ele roda no navegador e usa coisas como:
+
+    HTML
+    CSS
+    JavaScript
+💡 Exemplo:
+
+Você usa React para criar:
+
+    Sites
+        Sistemas web (tipo painel administrativo)
+        Interfaces que rodam no navegador
+        INSTALANDO npm
+
+2- O "REACT NATIVE" é usado para criar apps de celular (Android e iOS).
+
+    👉 Ele NÃO usa HTML.
+
+Ele usa componentes próprios como:
+
+    <View>
+    <Text>
+    <Button>
+
+E gera apps nativos de verdade.
+
+🔥 Diferença principal (bem direto)
+REACT                     	REACT NATIVE
+🌐 Web (sites)              📱 Mobile (apps)
+Usa HTML                   	Não usa HTML
+Roda no navegador	        Roda no celular
+Usa DOM	                    Usa componentes nativos
+
+
+🧠 Comparação simples
+    React → tipo criar um site (abre no Chrome)
+    React Native → tipo criar um app (instala no celular)
+
+
+🔹 “React Native é um framework open-source criado pelo Facebook”
+
+    👉 Isso significa:
+
+        É uma ferramenta criada pelo Facebook (hoje Meta)
+        Qualquer pessoa pode usar (é gratuito)
+🔹 “Permite desenvolver apps móveis usando JavaScript e React”
+
+    👉 Tradução:
+
+        Você usa JavaScript (a mesma linguagem do React)
+        E consegue criar apps de celular
+
+    💡 Ou seja: você não precisa aprender Java/Kotlin (Android) ou Swift (iPhone)
+
+🔹 “Construir apps para iOS e Android com uma única base de código”
+
+    👉 Isso é MUITO importante:
+
+        Você escreve um código só
+        Ele funciona tanto no:
+    📱 Android
+    🍎 iPhone
+
+    💡 Economiza MUITO tempo
+
+🔹 “Utiliza componentes nativos em vez de WebView”
+
+    Aqui é a parte que mais confunde 👇
+
+    👉 Existem 2 formas de fazer app:
+
+    ❌ Forma ruim (WebView):
+        Basicamente um “site dentro de um app”
+        Fica mais lento
+        Não parece app de verdade
+    ✅ React Native:
+        Usa peças reais do celular (botões, telas, etc.)
+        Fica mais rápido
+        Parece um app normal
+🔥 Resumão (pra você guardar)
+
+    👉 React Native é:
+
+        Uma ferramenta pra criar apps de celular
+        Usando JavaScript
+        Com um código só pra Android e iOS
+        Com desempenho próximo de app nativo
+
+
+
+COMANDOS NO BASH / windows powershell / prompt comando
+
+node -- version ou node -v = olhar a versão instalada do NODE.
+npm --version ou npm -v = olhar a versão instalada do npm.
+npm nstall -g expo-cli = instalar o expo-cli, dar esses comando no prompt
+npx create-expo-app --template = criando pasta com o projeto
+    Comandos
+        ok to proceed? (y) y
+        choose a template: Blank
+        what is your app named? meu-app
+
+pwd = ver o caminho que esta.
+dir = abre o diretorio onde estou
+
