@@ -169,3 +169,27 @@ npx create-expo-app --template = criando pasta com o projeto
 pwd = ver o caminho que esta.
 dir = abre o diretorio onde estou
 
+
+AULA DO DIA 24/03/2026
+
+ABRIR O GIT BASH:
+	procurar a pasta do projeto do app.
+		comandos: ls = ver os diretorios
+		comandos: cd Nome_arquivo/  = entrar na pasta
+		comandos: cd ../ = volta pasta anterior
+		comandos: code . = chama o programa vscode e o ponto "." abre todos os aqruivos que esta na pasta.
+APÓS ABERTO O VSCODE: terminal git bash
+	npm start
+		NAVEGADOR
+			localhost:8081
+			botao direito, inspecionar.
+	npm install react-native-web --legacy-peer-deps
+	npm install react-dom@19.2.0 --legacy-peer-deps
+	npm install react-dom@19.1.0 --legacy-peer-deps prof. ja usaou 19.1 e 19.2
+	npm install @expo/metro-runtime --legacy-peer-deps
+	npm install @react-native-async-storage/async-storage --legacy-peer-deps
+	npm start
+
+
+
+
