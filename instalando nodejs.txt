@@ -190,6 +190,7 @@ APÓS ABERTO O VSCODE: terminal git bash
 	npm install @react-native-async-storage/async-storage --legacy-peer-deps
 	npm start
 .
+alterando
 
 
 
