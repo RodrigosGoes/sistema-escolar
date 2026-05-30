@@ -189,6 +189,7 @@ APÓS ABERTO O VSCODE: terminal git bash
 	npm install @expo/metro-runtime --legacy-peer-deps
 	npm install @react-native-async-storage/async-storage --legacy-peer-deps
 	npm start
+.
 
 
 
