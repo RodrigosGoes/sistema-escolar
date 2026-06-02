@@ -159,7 +159,7 @@ COMANDOS NO BASH / windows powershell / prompt comando
 
 node -- version ou node -v = olhar a versão instalada do NODE.
 npm --version ou npm -v = olhar a versão instalada do npm.
-npm nstall -g expo-cli = instalar o expo-cli, dar esses comando no prompt
+npm install -g expo-cli = instalar o expo-cli, dar esses comando no prompt
 npx create-expo-app --template = criando pasta com o projeto
     Comandos
         ok to proceed? (y) y
@@ -185,10 +185,15 @@ APÓS ABERTO O VSCODE: terminal git bash
 			botao direito, inspecionar.
 	npm install react-native-web --legacy-peer-deps
 	npm install react-dom@19.2.0 --legacy-peer-deps
-	npm install react-dom@19.1.0 --legacy-peer-deps prof. ja usaou 19.1 e 19.2
+
+	npm install react-dom@19.1.0 --legacy-peer-deps    💡 prof. ja usaou 19.1 e 19.2, essas versoes depente do que está na pasta package.json no react, a versao tem que ser a que esta lá.
+
 	npm install @expo/metro-runtime --legacy-peer-deps
 	npm install @react-native-async-storage/async-storage --legacy-peer-deps
 	npm start
+
+Site para pesquisar os componentes do React native:
+	https://reactnative.dev/docs/components-and-apis
 
 
 
