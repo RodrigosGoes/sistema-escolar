@@ -184,12 +184,12 @@ APÓS ABERTO O VSCODE: terminal git bash
 			localhost:8081
 			botao direito, inspecionar.
 	npm install react-native-web --legacy-peer-deps
-	npm install react-dom@19.2.0 --legacy-peer-deps
-
-	npm install react-dom@19.1.0 --legacy-peer-deps    💡 prof. ja usaou 19.1 e 19.2, essas versoes depente do que está na pasta package.json no react, a versao tem que ser a que esta lá.
-
+	npm install react-dom@19.2.0 --legacy-peer-deps    💡 prof. ja usou 19.1 e 19.2, essas versoes depente do que está na pasta package.json no react, a versao tem que ser a que esta lá.
 	npm install @expo/metro-runtime --legacy-peer-deps
-	npm install @react-native-async-storage/async-storage --legacy-peer-deps
+
+    npm install @react-navigation/native --legacy-peer-deps
+	npm install @react-navigation/native-stack --legacy-peer-deps
+	npm install react-native-screens react-native-safe-area-context --legacy-peer-deps
 	npm start
 
 Site para pesquisar os componentes do React native:
